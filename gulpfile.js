@@ -25,7 +25,7 @@ const scss = () => {
     return gulp.src(['node_modules/bootstrap/scss/bootstrap.scss','app/sass/*.scss'])
     .pipe(sass())
     .pipe(autoprefixer({browsers: AUTOPREFIXER_BROWSERS}))
-    .pipe(minify())
+    // .pipe(minify())
     .pipe(rename('style.css'))
     .pipe(gulp.dest("app/css"))
     .pipe(browserSync.stream())
