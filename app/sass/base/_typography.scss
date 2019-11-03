@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Montserrat:400,500&display=swap');
+html {
+    font-family: 'Lato', sans-serif;
+    color: rgb(119,119,119);
+    font-weight: 500;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2.heading__secondary {
+    position: relative;
+    text-transform: uppercase;
+    color: rgb(43, 50, 80);
+}
