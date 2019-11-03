@@ -49,3 +49,29 @@
         }
     }
 }
+
+.expertise {
+    display: flex;
+
+    &__img {
+        margin-right: 1rem;
+
+        &-background {
+            display: inline-block;
+            background: rgb(245, 245, 245);
+            padding: 1rem;
+            border-radius: 50%;
+            position: relative;
+        }
+    }
+
+    &__info {
+        display: inline-block;
+        text-align: left;
+
+        span {
+            font-size: 15px;
+            color: rgb(119, 119, 119);
+        }
+    }
+}
