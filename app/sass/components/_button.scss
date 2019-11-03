@@ -1,0 +1,9 @@
+.btn {
+    border-radius: 0;
+    padding: .5rem 2rem;
+    text-transform: uppercase;
+
+    &-primary {
+        background-color: rgb(0,159,227);
+    }
+}

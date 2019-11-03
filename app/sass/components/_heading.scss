@@ -8,4 +8,12 @@
         transform: translateX(-50%);
         border-bottom: 3px solid rgb(0, 171, 201);
     }
+    &--left::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100px;
+        border-bottom: 3px solid rgb(0, 171, 201);
+    }
 }

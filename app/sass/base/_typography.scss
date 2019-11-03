@@ -1,11 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Montserrat:400,500&display=swap');
+
 html {
     font-family: 'Lato', sans-serif;
-    color: rgb(119,119,119);
+    color: rgb(119, 119, 119);
     font-weight: 500;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -13,4 +19,22 @@ h2.heading__secondary {
     position: relative;
     text-transform: uppercase;
     color: rgb(43, 50, 80);
+}
+
+h2.heading__secondary.heading__border-bottom--left {
+    line-height: 3rem;
+}
+
+#video {
+    span {
+        display: block;
+    }
+
+    .video__text {
+        color: rgb(43, 50, 58);
+    }
+
+    .video__text--muted {
+        color: rgb(190, 190, 190);
+    }
 }

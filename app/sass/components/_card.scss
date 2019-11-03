@@ -18,3 +18,34 @@
         padding: 0;
     }
 }
+
+#about-us {
+    background-image: url('/img/netco_stats_bg.jpg');
+    background-size: cover;
+
+    .about {
+        &__heading {
+            text-transform: uppercase;
+            color: #fff;
+
+            &--extra {
+                color: rgb(0,171,201);
+            }
+
+            &--large {
+                font-size: 3rem;
+                font-weight: 400;
+                letter-spacing: 2px;
+            }
+        }
+
+        &__text {
+            color: rgb(215, 215, 215);
+
+            &--upper {
+                text-transform: uppercase;
+                letter-spacing: 1px;
+            }
+        }
+    }
+}
