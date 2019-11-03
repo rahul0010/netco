@@ -1,0 +1,19 @@
+.cta {
+    background: rgb(0, 159, 227);
+
+    &__img {
+        height: 2.5rem;
+    }
+
+    &__heading {
+        text-transform: uppercase;
+        color: #fff;
+        font-size: 18px;
+    }
+
+    &__button {
+        font-size: 15px;
+        padding: .5rem 1rem;
+        color: rgb(119, 119, 119)
+    }
+}
