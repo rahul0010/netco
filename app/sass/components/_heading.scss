@@ -8,6 +8,7 @@
         transform: translateX(-50%);
         border-bottom: 3px solid rgb(0, 171, 201);
     }
+    
     &--left::after {
         content: "";
         position: absolute;
