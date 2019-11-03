@@ -1,0 +1,21 @@
+.form {
+    &-control {
+        border: 0;
+        border-radius: 0;
+        height: auto;
+        padding: 1rem 2rem;
+
+        &::placeholder {
+            color: rgb(181, 181, 181);
+            text-transform: uppercase;
+        }
+    }
+
+    select {
+        color: rgb(181, 181, 181);
+    }
+
+    .cta__text {
+        color: rgb(181, 181, 181);
+    }
+}
