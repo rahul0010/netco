@@ -1,0 +1,27 @@
+.header {
+    height: 110vh;
+    background-image: url('/img/hero.jpg');
+    background-size: cover;
+    position: relative;
+    @media only screen and (max-width: 56em) {
+        height: 100vh;
+    }
+
+    h1.heading__primary {
+        color: #fff;
+        display: inline-block;
+        position: absolute;
+        top: 75%;
+        right: 20%;
+        text-transform: uppercase;
+        text-shadow: 1px 1px 4px rgb(144,144,144);
+        @media only screen and (max-width: 56em) {
+            text-align: right;
+            top: 50%;
+            right: 20%;
+            font-size: 28px;
+            line-height: 3rem;
+        }
+    }
+
+}

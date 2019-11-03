@@ -2,9 +2,11 @@ nav {
     text-transform: uppercase;
     background: #fff;
     z-index: 999 !important;
+    box-shadow: 0 2px 4px rgba(119, 119, 119, .3);
 
     .nav__logo {
         width: 75%;
+        padding: 1rem 0;
     }
 
     .nav-link {
@@ -14,5 +16,13 @@ nav {
 
     .nav-item {
         margin-right: 2rem;
+        padding: 1.2rem 0;
+    }
+
+    @media only screen and (min-width: 72em) {
+        .nav-item.active {
+            border-bottom: 3px solid rgb(0,159,227);
+        }
     }
 }
+
